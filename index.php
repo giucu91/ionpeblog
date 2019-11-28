@@ -53,7 +53,7 @@ get_header();
 
 		</main><!-- #main -->
 
-		<div id="sidebar" class="col-lg-4">
+		<div id="sidebar" class="col-lg-4" data-sticky-container>
 			<?php get_sidebar(); ?>
 		</div>
 

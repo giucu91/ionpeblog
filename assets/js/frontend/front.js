@@ -79,12 +79,8 @@
 		},
 
 		initSmartSidebar: function() {
-			// var sidebarContainer = $( '#sidebar' ),
-			// 	sidebar = $( '#secondary' ),
-			// 	$window = $( window ),
-			// 	initialTopSidebar = sidebar.offset().top,
-			// 	lastScroll = $window.scrollTop();
-			var sticky = new Sticky('#secondary');
+			// var sticky = new Sticky('#secondary');
+			$("#secondary").stick_in_parent();
 		},
 
 		initLazyLoad: function() {

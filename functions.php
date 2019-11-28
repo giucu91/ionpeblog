@@ -139,12 +139,7 @@ function ionpeblog_views( $id ) {
 	}
 
 	$views = pvc_get_post_views( $id );
-
-	if ( absint( $views ) < 54 ) {
-		return 54;
-	}else{
-		return $views;
-	}
+	return $views;
 
 }
 

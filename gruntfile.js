@@ -156,6 +156,7 @@ module.exports = function (grunt) {
 				src : [
 					'assets/js/frontend/lazyload.min.js',
 					'assets/js/frontend/owl.min.js',
+					'assets/js/frontend/sticky-kit.min.js',
 					'assets/js/frontend/front.min.js',
 				],
 				dest: 'assets/js/main.min.js'
